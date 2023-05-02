@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #a5a5a5;
+    margin: auto;
+    align-items: baseline;
+}
+.elements__shop{
+
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.elements__shop--item{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+
+
+}
+.item__title{
+    text-align: center;
+}
+.item__img{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+.item__price{
+    text-align: center;
+}
+.item__addCart{
+    margin-top: 10px;
+    width: 50%;
+    margin: auto;
+    height: 35px;
+    background-color: #23a15c;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #fff;
+
+}
+
+.item__addCart:active{
+    background-color: #82e9b0;
+}
+.elements__cart{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  
+
+    margin: auto;
+}
+.elements__cart__container{
+   
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.elements__cart--items{
+    justify-content: space-between;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(211, 218, 218);
+    margin-bottom: 15px;
+  
+}
+
+.item__img--items{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 15px;
+    width: 40%;
+}
+.item__title--items{
+    width: 40%;
+    margin: auto 35px;
+}
+.item__price--items{
+    width: 20%;
+}
+.elements__cart--total{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+.elements__cart---h3{
+    margin: auto;
+}
+.elements__cart--total{
+    text-align: center;
+    margin: auto;
+}
+.elements__cart__h3{
+    text-align: center;
+    margin: auto;
+}
