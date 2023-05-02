@@ -123,3 +123,16 @@
     text-align: center;
     margin: auto;
 }
+.elements__cart--cant{
+
+    width: 30px;
+    height: 25px;
+}
+.item__remove{
+    width: 35px;
+    height: 25px;
+    background-color: red;
+    border: 1px solid #918f8f;
+    margin-left: 10px;
+    color: #fff;
+}
